@@ -4,7 +4,7 @@ import { getFirestore, collection, getDocs, addDoc, deleteDoc, doc } from "fireb
 import Sidebar from "./Sidebar.jsx";
 import DashboardReqLine from "./DashboardReqLine.jsx";
 import "./Dashboard.css";
-import { firebaseConfig } from "../firebase.js";
+import { firebaseConfig } from "../Firebase.js";
 
 function Dashboard() {
   const [ongoingTrips, setOngoingTrips] = useState([]);
