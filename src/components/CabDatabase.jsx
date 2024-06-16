@@ -5,7 +5,7 @@ import "./CabDatabase.css";
 import { Link } from "react-router-dom";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
-import { firebaseConfig } from "../firebase.js";
+import { firebaseConfig } from "../Firebase.js";
 
 function CabDatabase() {
   const [cabdetails, setCabDetails] = useState([]);
