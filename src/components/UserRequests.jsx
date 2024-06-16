@@ -4,7 +4,7 @@ import { getFirestore, collection, getDocs, addDoc, deleteDoc, doc } from "fireb
 import Sidebar from "./Sidebar.jsx";
 import UserReqLine from "./UserReqLine.jsx";
 import "./UserRequests.css";
-import { firebaseConfig } from "../firebase.js";
+import { firebaseConfig } from "../Firebase.js";
 
 function UserRequests() {
   const [userRequests, setUserRequests] = useState([]);
