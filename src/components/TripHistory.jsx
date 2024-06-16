@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar.jsx";
 import TripLine from "./TripLines.jsx";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
-import { firebaseConfig } from "../firebase.js";
+import { firebaseConfig } from "../Firebase.js";
 import "./TripHistory.css";
 
 function TripHistory() {
