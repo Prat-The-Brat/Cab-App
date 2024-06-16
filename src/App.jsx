@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Landing from "./components/Landing.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
-import Login from "./components/login.jsx";
+import Login from "./components/Login.jsx";
 import AdminDash from "./components/AdminDash.jsx";
 import DriverDeets from "./components/DriverDeets.jsx";
 import CabDeets from "./components/CabDeets.jsx";
