@@ -2,7 +2,7 @@ import "./AdminDash.css";
 import React from "react";
 import Car from "../assets/car.svg";
 import glogo from "../assets/glogo.svg";
-import { signInWithGogle } from '../firebase.js';
+// import { signInWithGogle } from '/Users/prathambhonge/hmm/Cab-App/src/Firebase.js';
 
 
 const AdminDash = () => {

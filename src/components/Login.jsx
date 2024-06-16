@@ -2,7 +2,7 @@ import "./login.css";
 import React from "react";
 import Car from "../assets/car.svg";
 import glogo from "../assets/glogo.svg";
-import { signInWithGogle } from '../firebase.js';
+import { signInWithGogle } from '../Firebase.js';
 
 
 const Login = () => {
