@@ -4,7 +4,7 @@ import DriverDataLine from "./DriverDataLine.jsx";
 import "./DriverDatabase.css";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
-import { firebaseConfig } from "../firebase.js";
+import { firebaseConfig } from "../Firebase.js";
 
 function DriverDatabase() {
   const [driverdetails, setDriverDetails] = useState([]);
